@@ -1,0 +1,77 @@
+#mainFrame {
+border: 0px;
+width: 100%;
+position: relative;
+}
+
+#header {
+height: 50px;
+width: 100%;
+background-color: gray;
+}
+#content {
+margin: 0px auto 0px;
+width: 900px;
+height: 600px;
+background-color: yellow;
+}
+#footer {
+width:100%;
+height:50px;
+background-color: gray;
+}
+#PersonBlock {
+float: left;
+width: 400px;
+height: 600px;
+background-color: tan;
+}
+#ArticleBlock {
+float: left;
+width: 400px;
+height: 600px;
+background-color: red;
+}
+#ArticleList {
+width: 400px;
+height: 600px;
+list-style-type: decimal-leading-zero;
+list-style-position: inside;
+background-color: yellow;
+}
+#ArticleList li {
+padding: 10px 0px 4px 10px;
+width: 390px;
+height: 15px;
+}
+.personDl {
+margin: 10px 0 0 0;
+width: 76px;
+float: left;
+display: inline
+}
+.personDl dt {
+margin: 0;
+height: 50px;
+overflow: hidden;
+text-align: center;
+line-height: 16px
+}
+.personDl dd {
+height: 40px;
+text-align: center;
+overflow: hidden
+}
+.ArticleTitle {
+width: 300px;
+height: 20px;
+margin: 0px;
+padding: 0px;
+display: inline-block;
+}
+#PersonRank,#ArticleRank {
+background-color: green;
+height: 600px;
+width: 50px;
+float: left;
+}
